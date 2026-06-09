@@ -176,7 +176,7 @@ class _AdminDashboardState extends State<AdminDashboard> {
       padding: const EdgeInsets.symmetric(vertical: 18, horizontal: 8),
       decoration: BoxDecoration(
         gradient: const LinearGradient(
-            colors: [AppConstants.primaryColor, AppConstants.primaryLight]),
+            colors: [AppConstants.primaryDark, AppConstants.primaryColor, AppConstants.primaryLight]),
         borderRadius: BorderRadius.circular(20),
         boxShadow: [
           BoxShadow(

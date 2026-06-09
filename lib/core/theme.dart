@@ -13,7 +13,7 @@ class AppTheme {
       ),
     );
     return base.copyWith(
-      scaffoldBackgroundColor: const Color(0xfff8f9fa),
+      scaffoldBackgroundColor: const Color(0xffF5F7FA),
       cardTheme: CardThemeData(
         elevation: 2,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),

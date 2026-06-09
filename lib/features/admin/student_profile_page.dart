@@ -49,9 +49,9 @@ class StudentProfilePage extends StatelessWidget {
                 decoration: const BoxDecoration(
                   gradient: LinearGradient(
                     colors: [
-                      Color(0xff880e4f),
+                      AppConstants.primaryDark,
                       AppConstants.primaryColor,
-                      AppConstants.primaryLight
+                      AppConstants.primaryLight,
                     ],
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight,

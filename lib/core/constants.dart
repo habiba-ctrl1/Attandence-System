@@ -12,9 +12,11 @@ class AppConstants {
   static const String settingsKey = 'app_settings_v2';
   static const double lowAttendanceThreshold = 75.0;
 
-  static const Color primaryColor = Color(0xffad1457);
-  static const Color primaryLight = Color(0xfff06292);
-  static const Color bgPink = Color(0xfffce4ec);
+  // Professional Deep Blue palette
+  static const Color primaryColor = Color(0xff1565C0);   // Blue 800
+  static const Color primaryLight = Color(0xff1E88E5);   // Blue 600
+  static const Color primaryDark  = Color(0xff0D47A1);   // Blue 900
+  static const Color bgPink       = Color(0xffE3F2FD);   // Blue 50 (light bg)
 
   static const List<String> leaveTypes = [
     'Sick Leave',

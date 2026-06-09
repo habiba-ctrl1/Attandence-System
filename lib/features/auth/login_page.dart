@@ -89,7 +89,7 @@ class _LoginPageState extends State<LoginPage>
       body: Container(
         decoration: const BoxDecoration(
           gradient: LinearGradient(
-            colors: [Color(0xff880e4f), Color(0xffad1457), Color(0xfff06292)],
+            colors: [Color(0xff0D47A1), Color(0xff1565C0), Color(0xff1E88E5)],
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
           ),

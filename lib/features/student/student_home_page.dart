@@ -109,7 +109,7 @@ class StudentHomePage extends StatelessWidget {
         padding: const EdgeInsets.all(20),
         decoration: BoxDecoration(
           gradient: const LinearGradient(
-            colors: [Color(0xff880e4f), AppConstants.primaryColor, AppConstants.primaryLight],
+            colors: [AppConstants.primaryDark, AppConstants.primaryColor, AppConstants.primaryLight],
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
           ),
